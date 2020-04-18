@@ -22,7 +22,7 @@ Considering the observed temperature in the most active station (WAIHEE 837, HI 
 :-------------------------:|
 Chart 2: Temperature distribution for Waihee 837 weather station|
 
-By making a benchmark of average monthly temperatures between July and December, it seems that there is a difference of about 5 degrees Fahreinheit. The inequality is also proved by performing the two tail T-test, without assumption of equal variability, which yields a P-value much less than the alfa value of 5%, which leads us to reject the null hypothesis of equal averages.
+By making a benchmark of average monthly temperatures between July and December, it seems that there is a difference of about 5 degrees Fahreinheit. The inequality is also shown by performing the two tail T-test, without assumption of equal variance, which yields a P-value much less than an alfa value of 5%, which leads us to reject the null hypothesis of equal averages.
 
 <img src=Images/Ttest.png >|
 :-------------------------:|
@@ -31,7 +31,7 @@ Chart 3: Differences between June and December temperatures|
 Ttest_indResult(statistic=7.570096659210406, pvalue=5.3283128862831936e-05)
 
 
-Considering the previous analysis, my personal preference would be to go in Hawaii at the beginning of June (Jun 1'st 2018 to Jun 7'th 2018), when there is a warmer weather. Therefore, when considering the exact same period in 2017, I should be expecting roughly a temperature within 74 and 81 F.
+Considering the previous analysis, my personal preference would be to go in Hawaii at the beginning of June (Jun 1'st 2018 to Jun 7'th 2018), when there is a warmer weather. Therefore, when considering the exact same period a year before (2017), I should be expecting roughly a temperature within 74 and 81 F.
 
 <img src=Images/TripTemp_bar.png >|
 :-------------------------:|
