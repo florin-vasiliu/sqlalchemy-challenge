@@ -339,7 +339,7 @@ def month_offset(no_months, input_date=dt.date.today()):
 
 # for testing only
 if __name__=="__main__":
-    weather = HonoluluHI_WeatherDB("sqlite:///../../Resources/hawaii.sqlite")
+    weather = HonoluluHI_WeatherDB("sqlite:///Resources/hawaii.sqlite")
     # print(weather.stations_data(list_of_dicts = False))
     print(weather.calc_temps(start_date='2010-09-16', \
                             end_date='2016-09-07')[0])

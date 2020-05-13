@@ -8,7 +8,7 @@ from flask import Flask, jsonify
 # Flask set-up
 app = Flask(__name__)
 
-weather = HonoluluHI_WeatherDB("sqlite:///../../Resources/hawaii.sqlite")
+weather = HonoluluHI_WeatherDB()
 
 #Flask routes
 @app.route("/")
