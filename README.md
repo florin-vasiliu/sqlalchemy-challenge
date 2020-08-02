@@ -1,7 +1,11 @@
 # SQLAlchemy Challenge - Surfs Up!
 
+## Objective
+<img src=Images/surfs-up.png >
+The objective is to perform weather analysis for Honolulu, HI to estimate the best period of the year to go in vacation.
+
 ## Project development
-For completing this assignment the following files have been developed:
+For completing this project the following files have been developed:
 
 1. HonoluluHI_weather.py - main library that contains the all the methods used for querying the database and processing data into dataframes or dictionaries;
 2. Climate_Analysis_and_Exploration.ipynb - Jupyter Notebook file used for analysis and visualization of the dataframes resulted from calling methods in HonoluluHI_weather.py;
